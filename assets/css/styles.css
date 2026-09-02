@@ -52,10 +52,17 @@ h4 {
   font-size: 1.125rem;
 }
 
-p,
-figure {
+p {
   margin-top: 0;
   margin-bottom: 1.25em;
+}
+
+figure {
+  margin: 2em 0;
+}
+
+figure img {
+  width: 100%;
 }
 
 a {
@@ -144,11 +151,6 @@ th {
     sans-serif;
   font-weight: 600;
   background: #f9fafb;
-}
-
-figure {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 @media (prefers-color-scheme: dark) {
